@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+}
+.containers {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(62, 236, 222);
+    font-size: 12px;
+    text-align: center;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2px solid rgb(233, 80, 20);
+    box-shadow: 10px 10px 10px rgb(65, 240, 255);
+}
+a {
+    color: rgb(38, 16, 238);
+    text-decoration: none;
+}
+
+.containers:hover {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(4, 226, 23);
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid rgb(233, 80, 20);
+    color: rgb(9, 109, 190);
+    text-decoration: none;
+}
+.containers:active {
+    background-color: rgb(214, 193, 122);
+}
+
+@media only screen and (max-width: 420px) {
+    .containers {
+        width: 30px;
+        height: 15px;
+        background-color: rgb(62, 236, 222);
+        font-size: 8px;
+        text-align: center;
+        transition: all 0.5s;
+        text-transform: uppercase;
+        border-radius: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        border: 2px solid rgb(233, 80, 20);
+        box-shadow: 25px 10px 15px rgb(65, 240, 255);
+    }
+    a {
+        color: rgb(38, 16, 238);
+        text-decoration: none;
+    }
+    
+    .containers:hover {
+        width: 50px;
+        height: 20px;
+        background-color: rgb(4, 226, 23);
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 4px;
+        border-radius: 6px;
+        border: 2px solid rgb(233, 80, 20);
+        color: rgb(9, 109, 190);
+        text-decoration: none;
+    }
+}
+
+
+.otaona {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    border: 1px solid red;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 10px 10px 10px red;
+    background-color: #f38181;
+    border-radius: 14px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.bola {
+    border: 2px solid rgb(7, 124, 7);
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px green;
+    
+}
+.birinchi-bola {
+    transition: all 0.5s;
+}
+.birinchi-bola:hover {
+    padding: 30px ;
+    background-color: rgb(91, 186, 250);
+}
+.ikkinchi-bola {
+    transition: all 0.5s;
+}
+.ikkinchi-bola:hover {
+    padding: 30px;
+    background-color: rgb(91, 186, 250);
+}
+.uchinchi-bola {
+    transition: all 0.5s;
+}
+.uchinchi-bola:hover {
+    padding: 30px ;
+    background-color: rgb(91, 186, 250);
+}
+.tortinchi-bola {
+    transition: all 0.5s;
+}
+.tortinchi-bola:hover {
+    padding: 30px ;
+    background-color: rgb(91, 186, 250);
+}
+.beshinchi-bola {
+    transition: all 0.5s;
+}
+.beshinchi-bola:hover {
+    padding: 30px ;
+    background-color: rgb(91, 186, 250);
+}
+.oltinchi-bola {
+    transition: all 0.5s;
+}
+.oltinchi-bola:hover {
+    padding: 30px ;
+    background-color: rgb(91, 186, 250);
+}
+@media only screen and (max-width: 420px) {
+    .otaona {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        border: 1px solid red;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 5px 5px 5px red;
+        background-color: #f38181;
+        border-radius: 14px;
+    }
+    .bola {
+        border: 2px solid rgb(7, 124, 7);
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+        background-color: aquamarine;
+        border-radius: 4px;
+        box-shadow: 4px 4px 4px green;
+        
+    }
+    .birinchi-bola {
+        transition: all 0.5s;
+    }
+    .birinchi-bola:hover {
+        padding: 15px ;
+        background-color: rgb(91, 186, 250);
+    }
+    .ikkinchi-bola {
+        transition: all 0.5s;
+    }
+    .ikkinchi-bola:hover {
+        padding: 15px;
+        background-color: rgb(91, 186, 250);
+    }
+    .uchinchi-bola {
+        transition: all 0.5s;
+    }
+    .uchinchi-bola:hover {
+        padding: 15px ;
+        background-color: rgb(91, 186, 250);
+    }
+    .tortinchi-bola {
+        transition: all 0.5s;
+    }
+    .tortinchi-bola:hover {
+        padding: 15px ;
+        background-color: rgb(91, 186, 250);
+    }
+    .beshinchi-bola {
+        transition: all 0.5s;
+    }
+    .beshinchi-bola:hover {
+        padding: 15px ;
+        background-color: rgb(91, 186, 250);
+    }
+    .oltinchi-bola {
+        transition: all 0.5s;
+    }
+    .oltinchi-bola:hover {
+        padding: 15px ;
+        background-color: rgb(91, 186, 250);
+    }
+}
